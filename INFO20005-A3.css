@@ -1,0 +1,23 @@
+header {
+    background-color:#ABD0EA;
+    padding-top: 25px;
+    height: 170px;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #03396C;
+    
+}
+
+.logo {
+    border: 2px solid #03396C;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto -5px;
+    padding: 5px;
+    background-color: #ECF3F7;
+}
