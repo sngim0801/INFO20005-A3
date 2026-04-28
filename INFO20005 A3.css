@@ -1,0 +1,22 @@
+header {
+    font-family: 'Mate SC', serif;
+    color:#03396C;
+    background-color:#ABD0EA;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    border-bottom: 2px solid #03396C;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    border: 2px solid #03396C;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    padding: 5px;
+    background-color: #ECF3F7;
+}
