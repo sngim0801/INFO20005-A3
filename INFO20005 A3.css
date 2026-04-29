@@ -3,12 +3,13 @@ header {
     color:#03396C;
     background-color:#ABD0EA;
     display: flex;
-    padding: 20px;
+    padding: 40px;
     gap: 30px;
     border-bottom: 2px solid #03396C;
     font-size: 18px;
     align-items: center;
     text-align: center;
+    height: 50px;
 }
 
 .logo {
@@ -19,4 +20,32 @@ header {
     display: flex;
     padding: 5px;
     background-color: #ECF3F7;
+}
+
+body {
+    background-color: #ECF3F7;
+}
+
+#navbar {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    position: sticky;
+    top: 0;
+    background-color: #ABD0EA;
+    width: 150px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    height: 100vh;
+    border-right: 2px solid #03396C;
+}
+
+#navbar img {
+    width: 45px;
+    height: 45px;
+}
+
+#navbar h3 {
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
