@@ -24,6 +24,7 @@ header {
 
 body {
     background-color: #ECF3F7;
+    flex: 1;
 }
 
 #navbar {
@@ -36,7 +37,8 @@ body {
     text-align: center;
     padding-top: 30px;
     font-size: 20px;
-    height: 100vh;
+    height: 120vh;
+    min-height: 100%;
     border-right: 2px solid #03396C;
 }
 
@@ -48,4 +50,106 @@ body {
 #navbar h3 {
     margin-top: 10px;
     margin-bottom: 40px;
+}
+
+main {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    display: flex;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content h1 {
+    padding-top: 20px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+    border: 2px solid #03396C;
+    border-radius: 12px;
+    font-size: 24px;
+    width: 250px;
+    background-color:rgba(255, 255, 255, 0.5);
+    height: 25px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.searchBar img {
+    height: 25px;
+    width: 25px;
+}
+
+.categories {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.categoryBox {
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+}
+
+.categoryBox img {
+    border: 2px solid #03396C;
+    height: 250px;
+    width: 250px;
+}
+
+.categoryBoxLabel {
+    margin-top: -5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 2px solid #03396C;
+    border-right: 2px solid #03396C;
+    border-bottom: 2px solid #03396C;
+    width: 220px;
+}
+
+.categoryBoxLabel h3 {
+    padding-left: 10px;
+}
+
+.chatbot {
+    position: absolute;
+    margin-top: 160px;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    font-size: 20px;
+    width: 180px;
+    padding-right: 50px;
+}
+
+footer {
+    font-family: 'Mate SC', serif;
+    color:#03396C;
+    background-color:#ABD0EA;
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+    border-top: 2px solid #03396C;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+}
+
+.copyright {
+    margin-left: auto;
 }
