@@ -155,6 +155,17 @@ footer {
     margin-left: auto;
 }
 
+.subheading {
+    display: flex;
+    align-items: center;
+    width: 980px;
+}
+
+.subheading img {
+    margin-left: auto;
+    margin-top: 40px;
+}
+
 .products {
     padding: 10px;
     display: grid;
