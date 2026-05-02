@@ -203,3 +203,46 @@ footer {
 .addButton {
     font-size: 25px;
 }
+
+.productContent {
+    padding-top: 60px;
+    padding-left: 90px;
+    font-size: 20px;
+}
+
+.productContentTop {
+    display: flex;
+}
+
+.productContentTop img {
+    border: 2px solid #03396C;
+}
+
+.description {
+    display: block;
+    padding-left: 50px;
+}
+
+.backButton {
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 60px;
+}
+
+button {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    font-size: 25px;
+    border: 2px solid #03396C;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 180px;
+    height: 60px;
+    text-align: center;
+}
+
+.details {
+    padding-top: 40px;
+    width: 850px;
+    line-height: 200%;
+}
