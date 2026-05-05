@@ -66,14 +66,14 @@ main {
 }
 
 .content h1 {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .searchBar {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 10px 20px;
+    padding: 10px;
     border: 2px solid #03396C;
     border-radius: 12px;
     font-size: 24px;
@@ -90,7 +90,6 @@ main {
 }
 
 .categories {
-    padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
@@ -159,6 +158,7 @@ footer {
     display: flex;
     align-items: center;
     width: 980px;
+    margin-top: -20px;
 }
 
 .subheading img {
@@ -167,7 +167,6 @@ footer {
 }
 
 .products {
-    padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
@@ -245,4 +244,119 @@ button {
     padding-top: 40px;
     width: 850px;
     line-height: 200%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 50px;
+}
+
+.title span {
+    padding-left: 35px;
+    margin-bottom: 12px;
+}
+
+.box {
+    position: relative;
+    display: block;
+    align-items: center;
+    border: 2px solid #03396C;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 50px;
+    width: 1100px;
+    height: 700px;
+}
+
+.journalInfo {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    accent-color: #03396C;
+}
+
+.productImage {
+    display: flex;
+    border: 2px solid #03396C;
+    width: 130px;
+    height: 130px;
+}
+
+.journalInfoRight {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.journalText {
+    display: block;
+}
+
+.quantity {
+    display: flex;
+}
+
+.quantity h2 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #03396C;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.binImage {
+    width: 40px;
+    height: 40px;
+    padding-right: 70px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+}
+
+.selectAll {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #03396C;
+    padding-bottom: 20px;
+}
+
+.checkout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.checkoutText {
+    text-align: right;
+    font-size: 24px;
+    line-height: 60%;
+}
+
+.penText {
+    padding-right: 124px;
 }
