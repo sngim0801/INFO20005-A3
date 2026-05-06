@@ -360,3 +360,89 @@ hr {
 .penText {
     padding-right: 124px;
 }
+
+.paymentBox {
+    position: relative;
+    display: block;
+    align-items: center;
+    border: 2px solid #03396C;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 30px;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 18px;
+    width: 1150px;
+    height: 700px;
+}
+
+.detailRows h3 {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+input[type="type"] {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    height: 40px;
+    border: 2px solid #03396C;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+}
+
+input[type="type"]:focus {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    height: 40px;
+    border: 2px solid #03396C;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+    outline: none;
+}
+
+.placeOrder {
+    padding-top: 70px;
+    padding-left: 900px;
+}
+
+.confirmBox {
+    display: block;
+    align-items: center;
+    border: 2px solid #03396C;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 50px;
+    width: 1100px;
+    height: 700px;
+}
+
+.confirmBox h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.endButton {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    font-size: 25px;
+    border: 2px solid #03396C;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.endButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
