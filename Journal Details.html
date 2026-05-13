@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Mate:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="INFO20005 A3.css">
+    <script src="INFO20005 A3.js"></script>
 </head>
 <body>
     <header>
@@ -17,8 +18,13 @@
         <div id="navbar">
             <a href="Home Page.html"><img src="Images/Home Active.png" alt="Home"></a>
             <a href="Home Page.html"><h3>Home</h3></a>
-            <img src="Images/Shopping Bag.png" alt="Shopping Bag">
-            <h3>Shopping <br> Bag</h3>
+            <a href="Shopping Bag Ver1.html">
+                <div class="bag-wrapper">
+                    <img src="Images/Shopping Bag.png" alt="Shopping Bag">
+                    <span class="bagBadge" id="bagBadge">1</span>
+                </div>
+                <h3>Shopping <br> Bag</h3>
+            </a>
             <img src="Images/User.png" alt="User">
             <h3>User</h3>
             <img src="Images/Settings.png" alt="Settings">
@@ -31,7 +37,7 @@
                 <div class="description">
                     <h2>A Dopo Moon Phases Journal</h2>
                     <h3>$24.95</h3>
-                    <button class="button">Add to cart</button>
+                    <button class="button" id="addButton" onclick="addToCart()">Add to cart</button>
                 </div>
             </div>
             <div class="details">

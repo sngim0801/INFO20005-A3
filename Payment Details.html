@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Mate:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="INFO20005 A3.css">
+    <script src="INFO20005 A3.js"></script>
 </head>
 <body>
     <header>
@@ -15,9 +16,12 @@
     </header>
     <main>
         <div id="navbar">
-            <img src="Images/Home.png" alt="Home">
-            <h3>Home</h3>
-            <img src="Images/Shopping Bag Active.png" alt="Shopping Bag">
+            <a href="Home Page.html"><img src="Images/Home.png" alt="Home"></a>
+            <a href="Home Page.html"><h3>Home</h3></a>
+            <div class="bag-wrapper">
+                <img src="Images/Shopping Bag Active.png" alt="Shopping Bag">
+                <span class="bagBadge" id="bagBadge" style="display:flex;">2</span>
+            </div>
             <h3>Shopping <br> Bag</h3>
             <img src="Images/User.png" alt="User">
             <h3>User</h3>
@@ -26,21 +30,38 @@
         </div>
         <div class="content">
             <div class="title">
-                <span class="backButton">&#8249;</span>
+                <a href="Shopping Bag Ver2.html"><span class="backButton">&#8249;</span></a>
                 <h1>Payment</h1>
             </div>
             <div class="paymentBox">
                 <h2>Please enter your details.</h2>
-                <div class="detailRows">
-                    <h3>Name</h3>
-                    <input type="type">
-                    <h3>Address</h3>
-                    <input type="type">
-                    <h3>Payment Details</h3>
-                    <input type="type">
-                </div>
-                <div class="placeOrder">
-                    <button class="button">Place Order</button>
+                <div class="form">
+                    <form onsubmit="submitForm()">
+                        <label>Name<br>
+                            <input type="text" required>
+                        </label>
+                        <label>Email<br>
+                            <input type="email" required>
+                        </label>
+                        <label>Phone Number<br>
+                            <input type="text" minlength="10" maxlength="10" required>
+                        </label>
+                        <label>Address<br>
+                            <input type="text" required>
+                        </label>
+                        <label>Card Number<br>
+                            <input type="text" minlength="16" maxlength="16" required>
+                        </label>
+                        <label>Expiry Date<br>
+                            <input type="month" required>
+                        </label>
+                        <label>CVV<br>
+                            <input type="text" minlength="3" maxlength="3" required>
+                        </label>
+                    </form>
+                    <div class="placeOrder">
+                        <a href="Confirmation of Payment.html"><button type="Submit" class="button">Place Order</button></a>
+                    </div>
                 </div>
             </div>
         </div>

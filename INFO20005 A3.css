@@ -263,6 +263,10 @@ button {
     margin-bottom: 12px;
 }
 
+.title h1 {
+    margin-top: -5px;
+}
+
 .box {
     position: relative;
     display: block;
@@ -381,9 +385,34 @@ hr {
     height: 700px;
 }
 
-.detailRows h3 {
-    font-size: 25px;
-    padding-top: 30px;
+.form form {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 20px;
+}
+
+.form label {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.form input {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #03396C;
+    padding-left: 10px;
+}
+
+.form input:focus {
+    font-family: 'Mate', serif;
+    color: #03396C;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid #03396C;
 }
 
 input[type="type"] {
@@ -455,6 +484,27 @@ input[type="type"]:focus {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.bag-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.bagBadge {
+  display: none;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background: #E0B3B7;
+  color: #03396C;
+  border-radius: 50%;
+  border: 1px solid #03396C;
+  width: 24px;
+  height: 24px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* mobile responsiveness */
