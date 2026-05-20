@@ -92,3 +92,18 @@ footer button {
     gap: 50px;
     padding: 20px;
 }
+
+/* mobile responsiveness */
+
+@media (max-width: 700px) {
+
+    .buttonContainer {
+        width: 200px;
+    }
+
+    .buttonContainer button {
+        width: 120px;
+        height: 70px;
+        font-size: 20px;
+    }
+}
