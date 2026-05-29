@@ -38,29 +38,36 @@
                 <div class="form">
                     <form>
                         <label>Name<br>
-                            <input type="text" required>
+                            <input type="text" id="inputName" required>
+                            <span class="error" id="nameError"></span>
                         </label>
                         <label>Email<br>
-                            <input type="email" required>
+                            <input type="email" id="inputEmail" required>
+                            <span class="error" id="emailError"></span>
                         </label>
                         <label>Phone Number<br>
-                            <input type="text" minlength="10" maxlength="10" required>
+                            <input type="text" id="inputPhone" minlength="10" maxlength="11" required>
+                            <span class="error" id="phoneError"></span>
                         </label>
                         <label>Address<br>
-                            <input type="text" required>
+                            <input type="text" id="inputAddress" required>
+                            <span class="error" id="addressError"></span>
                         </label>
                         <label>Card Number<br>
-                            <input type="text" minlength="16" maxlength="16" required>
+                            <input type="text" id="inputCardNumber" minlength="16" maxlength="16" required>
+                            <span class="error" id="cardNumberError"></span>
                         </label>
                         <label>Expiry Date<br>
-                            <input type="month" required>
+                            <input type="month" id="inputExpiry" required>
+                            <span class="error" id="expiryError"></span>
                         </label>
                         <label>CVV<br>
-                            <input type="text" minlength="3" maxlength="3" required>
+                            <input type="text" id="inputCvv" minlength="3" maxlength="3" required>
+                            <span class="error" id="cvvError"></span>
                         </label>
                     </form>
                     <div class="placeOrder">
-                        <a href="Confirmation of Payment.html"><button type="Submit" class="button">Place Order</button></a>
+                        <button type="button" onclick="validatePayment()" id="placeOrder" class="button">Place Order</button>
                     </div>
                 </div>
             </div>

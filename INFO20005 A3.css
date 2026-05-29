@@ -384,7 +384,7 @@ hr {
     padding-top: 20px;
     font-size: 18px;
     width: 1150px;
-    height: 700px;
+    height: 800px;
 }
 
 .form form {
@@ -443,7 +443,7 @@ input[type="type"]:focus {
 }
 
 .placeOrder {
-    padding-top: 70px;
+    padding-top: 20px;
     padding-left: 900px;
 }
 
@@ -507,6 +507,14 @@ a {
     font-size: 15px;
     justify-content: center;
     align-items: center;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    display: block;
+    margin-top: 15px;
+    height: 20px;
 }
 
 /* mobile responsiveness */
@@ -906,7 +914,7 @@ a {
         padding-top: 20px;
         font-size: 35px;
         width: 1050px;
-        height: 1800px;
+        height: 2250px;
     }
 
     .form form {
@@ -917,7 +925,7 @@ a {
 
     .form label {
         font-size: 50px;
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .form input {
@@ -961,7 +969,7 @@ a {
     }
 
     .placeOrder {
-        padding-top: 110px;
+        padding-top: 120px;
         padding-left: 645px;
     }
 
@@ -1022,5 +1030,14 @@ a {
         font-size: 32px;
         justify-content: center;
         align-items: center;
+    }
+
+    .error {
+        color: red;
+        font-size: 40px;
+        display: block;
+        margin-top: 20px;
+        height: 20px;
+        width: 1000px;
     }
 }
